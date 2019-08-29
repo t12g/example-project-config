@@ -1,0 +1,13 @@
+apiVersion: dev.verilycloud/v1alpha1
+kind: CloudSQL
+metadata:
+  name: csp-db
+spec:
+  databaseVersion: POSTGRES_9_6
+  tier: db-custom-6-23040
+  username: csp
+  password: csp
+  maintenance_window:
+    day: 6
+    hour: 0
+

@@ -1,0 +1,6 @@
+bases:
+- ../../../../base/services/my-service
+
+patchesStrategicMerge:
+- config.yaml
+

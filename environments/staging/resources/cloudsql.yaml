@@ -1,0 +1,8 @@
+apiVersion: dev.verilycloud/v1alpha1
+kind: CloudSQL
+metadata:
+  name: csp-db
+spec:
+  tier: db-custom-6-23040
+
+

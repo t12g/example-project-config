@@ -1,0 +1,6 @@
+apiVersion: dev.verilycloud/v1alpha1
+kind: JavaSpringBootService
+metadata:
+  name: my-service
+spec:
+  image: my-service:7c0c959

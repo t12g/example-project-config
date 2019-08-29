@@ -1,0 +1,8 @@
+apiVersion: dev.verilycloud/v1alpha1
+kind: GoogleKubernetesEngine
+metadata:
+  name: cluster
+spec:
+  nodeCount: 4
+  machineType: "n1-standard-4"
+
